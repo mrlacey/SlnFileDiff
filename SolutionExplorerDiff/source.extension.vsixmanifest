@@ -4,6 +4,8 @@
         <Identity Id="SolutionExplorerDiff.f27c696f-c81f-44fb-ae0f-4fdaf6fb9d45" Version="1.0" Language="en-US" Publisher="Matt Lacey" />
         <DisplayName>Solution File Diff</DisplayName>
         <Description xml:space="preserve">Diff files from the Solution Explorer</Description>
+        <MoreInfo>https://github.com/mrlacey/SlnFileDiff</MoreInfo>
+        <Icon>Resources\SlnFileDiffLogo.png</Icon>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
