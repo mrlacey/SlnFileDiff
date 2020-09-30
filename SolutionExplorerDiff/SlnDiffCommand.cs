@@ -86,7 +86,7 @@ namespace SolutionExplorerDiff
 
             if (await this.ServiceProvider.GetServiceAsync(typeof(DTE)) is DTE dte)
             {
-                dte.ExecuteCommand("Tools.DiffFiles", $"{this.filePath1} {this.filePath2}");
+                dte.ExecuteCommand("Tools.DiffFiles", $"\"{this.filePath1}\" \"{this.filePath2}\"");
             }
         }
     }
